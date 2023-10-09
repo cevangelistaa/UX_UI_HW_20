@@ -1,10 +1,13 @@
 .display-4{
     font-weight: bold;
 }
-.container{
-    overflow: auto;
+.column{
+    float:left;
+    width:33.33%;
+    padding: 2px;
 }
-img{
-    float: right;
-    margin: 0 10px 10px 0;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
