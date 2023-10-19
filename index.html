@@ -22,7 +22,7 @@
         <h1 class="display-4">AIATSIS Website Redesign</h1>
         <p class="lead">UX/UI Design</p>
     </div>
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center sticky-top">
         <li class="nav-item">
             <a class="nav-link" href="#">Introduction</a>
         </li>
@@ -96,7 +96,7 @@
 
         <section class="row">
             <div>
-                <h2>01 - Research & Evaluation</h2>
+                <h2>Research & Evaluation</h2>
                 <br>
                 <p>The AIATSIS website is heavily research-based, and the goal for users is to successfully locate
                     information to further educate themselves about the Aboriginal and Torres Strait Islander people.
@@ -211,7 +211,7 @@
         </section>
         <br>
         <section class="row">
-            <div class="row">
+            <div>
                 <p>An additional test was conducted to further understand the website’s navigation.</p>
                 <p>The user was asked to rank the items on the primary navigation bar from most to least important,
                     which
@@ -234,251 +234,276 @@
             </div>
         </section>
 
-        <div>
-            <h3>Card Sorting</h3>
-            <p>In order to restructure the navigation, I first conducted a card sorting exercise to help organize
-                and categorize information. All 47 items in the primary & secondary navigation bar were written out
-                and sorted into groups based on similarity. With this, primary navigation was consolidated from 8 to
-                6 items, while secondary and tertiary paths were created to further help with organization.</p>
-            <img src="Images\CS Before.png" alt="words on cards" style="width:100%;">
-            <img src="Images\CS After.png" alt="cards sorted" style="width:100%;">
-        </div>
-        <div>
-            <h3>Site Map</h3>
-            <p>In addition, an updated site map was created to assist with visually organizing information.</p>
-            <img src="Images\Site Map.png" alt="map" style="width:100%;" </div>
-            </section>
+        <section class="row">
+            <div>
+                <h2>Definition & Organization</h2>
+                <p>From the usability tests, I discovered that navigation was a major pain point:</p>
+                <ul>
+                    <li>The primary navigation bar at the top of the screen was the first thing users were drawn to</li>
+                    <li>The overwhelming amount of clickable links and items contributed to visual and information
+                        overload</li>
+                    <li>Users were frustrated with not being able to find certain information right away, instead of
+                        finding it after 1-2 clicks on a webpage</li>
+                </ul>
+                <p>With these findings, I wanted to focus on restructuring the navigation and formatting the layout to
+                    be more user-friendly.</p>
+            </div>
+        </section>
 
-            <section>
-                <div class="row">
-                    <h2>03 - Ideation & UI Design</h2>
-                    <p>Based off card sorting and an updated site map, I designed an updated primary navigation bar to
-                        have
-                        the logo and six options a user can choose from.</p>
-                    <img src="Images\Primary Nav .png" alt="navigation bar" style="width:100%;">
+        <section class="row">
+            <div class="cardsort">
+                <h3>Card Sorting</h3>
+                <p>In order to restructure the navigation, I first conducted a card sorting exercise to help organize
+                    and categorize information. All 47 items in the primary & secondary navigation bar were written out
+                    and sorted into groups based on similarity. With this, primary navigation was consolidated from 8 to
+                    6 items, while secondary and tertiary paths were created to further help with organization.</p>
+                <img src="Images\CS Before.png" alt="words on cards">
+                <br>
+                <br>
+                <img src="Images\CS After.png" alt="cards sorted">
+            </div>
+        </section>
+
+        <section id="sitemap">
+            <div>
+                <h3>Site Map</h3>
+                <p>In addition, an updated site map was created to assist with visually organizing information.</p>
+                <img src="Images\Site Map.png" alt="map">
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <h2>Ideation & UI Design</h2>
+                <p>Based off card sorting and an updated site map, I designed an updated primary navigation bar to
+                    have
+                    the logo and six options a user can choose from.</p>
+                <img src="Images\Primary Nav .png" alt="navigation bar" style="width:100%;">
+            </div>
+            <div class="row">
+                <p>The search bar was also redesigned to have the text color uniform on the primary navigation to
+                    decrease the chance of users missing it, as well as to follow AA guidelines. Users can hover
+                    over
+                    the search bar before clicking on it to activate.</p>
+                <div class="col">
+                    <img src="Images\Search Normal.png" alt="normal search" style="width:100%;">
                 </div>
+                <div class="col">
+                    <img src="Images\Search Hover.png" alt="hover search" style="width:100%;">
+                </div>
+            </div>
+            <br>
+            <div>
+                <p>In regards to the mobile version, a condensed primary navigation bar was designed to include:</p>
+                <ul>
+                    <li>The AIATSIS logo</li>
+                    <li>A magnifying glass for the search icon</li>
+                    <li>A hamburger icon to access primary navigation </li>
+                </ul>
+                <p>Once the user clicks on the search icon, they have the option of typing via the keyboard, or
+                    speaking
+                    via the microphone.</p>
                 <div class="row">
-                    <p>The search bar was also redesigned to have the text color uniform on the primary navigation to
-                        decrease the chance of users missing it, as well as to follow AA guidelines. Users can hover
-                        over
-                        the search bar before clicking on it to activate.</p>
                     <div class="col">
-                        <img src="Images\Search Normal.png" alt="normal search" style="width:100%;">
+                        <img src="Images\Top Dark.png" alt="dark nav bar" style="width:100%;">
                     </div>
                     <div class="col">
-                        <img src="Images\Search Hover.png" alt="hover search" style="width:100%;">
+                        <img src="Images\Search Dark.png" alt="dark search bar" style="width:100%;">
                     </div>
                 </div>
+                <br>
                 <div>
-                    <p>In regards to the mobile version, a condensed primary navigation bar was designed to include:</p>
-                    <ul>
-                        <li>The AIATSIS logo</li>
-                        <li>A magnifying glass for the search icon</li>
-                        <li>A hamburger icon to access primary navigation </li>
-                    </ul>
-                    <p>Once the user clicks on the search icon, they have the option of typing via the keyboard, or
-                        speaking
-                        via the microphone.</p>
+                    <p>In regards to the footer component, the mobile and desktop versions were redesigned to
+                        maintain
+                        consistency.</p>
                     <div class="row">
                         <div class="col">
-                            <img src="Images\Top Dark.png" alt="dark nav bar" style="width:100%;">
+                            <img src="Images\Desktop_Footer.png" alt="dark footer" style="width:100%;">
                         </div>
                         <div class="col">
-                            <img src="Images\Search Dark.png" alt="dark search bar" style="width:100%;">
+                            <img src="Images\Mobile_Footer.png" alt="mobile dark footer" style="width:100%;">
                         </div>
                     </div>
-                    <div>
-                        <p>In regards to the footer component, the mobile and desktop versions were redesigned to
-                            maintain
-                            consistency.</p>
-                        <div class="row">
-                            <div class="col">
-                                <img src="Images\Desktop_Footer.png" alt="dark footer" style="width:100%;">
-                            </div>
-                            <div class="col">
-                                <img src="Images\Mobile_Footer.png" alt="mobile dark footer" style="width:100%;">
-                            </div>
-                        </div>
-                    </div>
-            </section>
-
-            <section>
-                <div>
-                    <h3>Style Guide</h3>
-                    <p>I created a style guide to define the color palette, typography, and iconography to help with
-                        consistency in design across all pages.</p>
-                    <div class="row">
-                        <img src="Images\UI Style Tile.png" alt="style tile" style="width:100%;">
-                    </div>
                 </div>
-            </section>
+        </section>
 
-            <section>
+        <section>
+            <div>
+                <h3>Style Guide</h3>
+                <p>I created a style guide to define the color palette, typography, and iconography to help with
+                    consistency in design across all pages.</p>
                 <div class="row">
-                    <h2>04 - Wireframes</h2>
+                    <img src="Images\UI Style Tile.png" alt="style tile" style="width:100%;">
                 </div>
-                <div class="row">
-                    <p>Apart from redesigning the navigation, I wanted to focus on restructuring the layout of AIATSIS
-                        homepage to be more user-friendly, but still be aesthetically pleasing. Taking inspiration from
-                        other government agency websites, the wireframes went through multiple iterations based on
-                        feedback
-                        from user testing.</p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="Images\Desktop_Wireframe_V1.png" alt="desktop wireframe" style="width:100%;">
-                    </div>
-                    <div class="col">
-                        <img src="Images\Desktop_Wireframe_1_V1.png" alt="desktop wireframe menu" style="width:100%;">
-                    </div>
-                </div>
-                <div class="row">
-                    <p>Version 1 - Focused on updated the primary navigation layout and condensing the information on
-                        the
-                        page.</p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="Images\Desktop_Wireframe_V2.png" alt="wireframe with hero image" style="width:100%;">
-                    </div>
-                    <div class="col">
-                        <img src="Images\Desktop_Wireframe_1_V2.png" alt="wireframe with menu" style="width:100%;">
-                    </div>
-                </div>
-                <div class="row">
-                    <p>Version 2 - I added a hero image to draw users to the website, added an interactive news section
-                        for
-                        mobile and desktop, and added 2-3 sections within the site users would visit to accomplish their
-                        intended goals.</p>
-                </div>
-                <div class="image-container">
-                    <img src="Images\Mobile_Wireframe_V1.png" alt="mobile wireframe">
-                    <img src="Images\Mobile_Wireframe_1_V1.png" alt="mobile wireframe focused">
-                    <img src="Images\Mobile_Wireframe_V2.png" alt="mobile wireframe with hero">
-                    <img src="Images\Mobile_Wireframe_1_V2.png" alt="mobile wireframe interactive news">
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section>
-                <div>
-                    <h2>05 - Testing</h2>
-                    <p>To help see which sections needed iterations, a 5-second test and a usability test were conducted
-                        to
-                        gather first impressions and observe how users navigate through the redesigned website.</p>
+        <section>
+            <div class="row">
+                <h2>04 - Wireframes</h2>
+            </div>
+            <div class="row">
+                <p>Apart from redesigning the navigation, I wanted to focus on restructuring the layout of AIATSIS
+                    homepage to be more user-friendly, but still be aesthetically pleasing. Taking inspiration from
+                    other government agency websites, the wireframes went through multiple iterations based on
+                    feedback
+                    from user testing.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images\Desktop_Wireframe_V1.png" alt="desktop wireframe" style="width:100%;">
                 </div>
-            </section>
-
-            <section>
-                <div>
-                    <h3>5-Second Test</h3>
-                    <p>5 users participated in this test to gauge first impressions. Some observations:</p>
-                    <ul>
-                        <li>All user noted the clean, minimalistic look</li>
-                        <li>One user commented about the nice contrast of the white background with darker text</li>
-                        <li>One user remembered the layout more than the navigation itself</li>
-                        <li>One user wondered why the primary navigation options repeated itself on the main page and
-                            thought it felt redundant.</li>
-                    </ul>
+                <div class="col">
+                    <img src="Images\Desktop_Wireframe_1_V1.png" alt="desktop wireframe menu" style="width:100%;">
                 </div>
-            </section>
-
-            <section>
-                <div>
-                    <h3>Usability Testing</h3>
-                    <p>Tests were conducted via Maze to observe how users navigate through the site and if the redesigns
-                        were effective. Users were asked to complete the following tasks:</p>
-                    <ol>
-                        <li>Explain the process of navigating to find family history sources</li>
-                        <li>Explain the process of finding research articles</li>
-                        <li>Explain the process of finding the “work with us” page</li>
-                    </ol>
+            </div>
+            <div class="row">
+                <p>Version 1 - Focused on updated the primary navigation layout and condensing the information on
+                    the
+                    page.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images\Desktop_Wireframe_V2.png" alt="wireframe with hero image" style="width:100%;">
                 </div>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">Task</th>
-                            <th scope="col">User #1</th>
-                            <th scope="col">User #2</th>
-                            <th scope="col">User #3</th>
-                            <th scope="col">User #4</th>
-                            <th scope="col">User #5</th>
-                            <th scope="col">Success Rate</th>
-                            <th scope="col">Average Time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Task 1</th>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>100%</td>
-                            <td>25.8 sec</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Task 2</th>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>100%</td>
-                            <td>9.8 sec</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Task 3</th>
-                            <td>0.5</td>
-                            <td>1</td>
-                            <td>0.5</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>75%</td>
-                            <td>15.9 sec</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section>
-                <div class="row">
-                    <div class="col">
-                        <img src="Images\Heatmap_1.jpg" alt="homepage heatmap" style="width:100%;">
-                    </div>
-                    <div class="col">
-                        <img src="Images\Heatmap_2.jpg" alt="nav heatmap" style="width:100%;" </div>
-                    </div>
-            </section>
-
-            <section>
-                <div>
-                    <h3>The Prototypes</h3>
-                    <p>After reviewing feedback and further iterations, my final prototype was created!</p>
+                <div class="col">
+                    <img src="Images\Desktop_Wireframe_1_V2.png" alt="wireframe with menu" style="width:100%;">
                 </div>
-            </section>
+            </div>
+            <div class="row">
+                <p>Version 2 - I added a hero image to draw users to the website, added an interactive news section
+                    for
+                    mobile and desktop, and added 2-3 sections within the site users would visit to accomplish their
+                    intended goals.</p>
+            </div>
+            <div class="image-container">
+                <img src="Images\Mobile_Wireframe_V1.png" alt="mobile wireframe">
+                <img src="Images\Mobile_Wireframe_1_V1.png" alt="mobile wireframe focused">
+                <img src="Images\Mobile_Wireframe_V2.png" alt="mobile wireframe with hero">
+                <img src="Images\Mobile_Wireframe_1_V2.png" alt="mobile wireframe interactive news">
+            </div>
+        </section>
 
-            <section>
-                <div>
-                    <h2>The Next Steps</h2>
-                    <p>For me, it was a challenging few weeks that involved thinking outside the box and relying on
-                        numerous
-                        resources to get the job done. However, this project helped me practice and shape my UI skills
-                        to
-                        make functional, but aesthetically pleasing products.</p>
-                    <p>Initially, I had made the mistake of designing other aspects of the website instead on focusing
-                        on
-                        designing useful components first. Once they were designed, putting together the remainder of
-                        the
-                        website was much easier.</p>
-                    <p>Future opportunities include additional iterations and redesign beyond the homepage and
-                        navigation. I
-                        would also like to include interactive sections to enhance the user experience.</p>
-                    <p>Overall, I am proud of what I’ve been able to accomplish in 5 weeks, and look forward to similar
-                        projects like this in the future!</p>
+        <section>
+            <div>
+                <h2>05 - Testing</h2>
+                <p>To help see which sections needed iterations, a 5-second test and a usability test were conducted
+                    to
+                    gather first impressions and observe how users navigate through the redesigned website.</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>5-Second Test</h3>
+                <p>5 users participated in this test to gauge first impressions. Some observations:</p>
+                <ul>
+                    <li>All user noted the clean, minimalistic look</li>
+                    <li>One user commented about the nice contrast of the white background with darker text</li>
+                    <li>One user remembered the layout more than the navigation itself</li>
+                    <li>One user wondered why the primary navigation options repeated itself on the main page and
+                        thought it felt redundant.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>Usability Testing</h3>
+                <p>Tests were conducted via Maze to observe how users navigate through the site and if the redesigns
+                    were effective. Users were asked to complete the following tasks:</p>
+                <ol>
+                    <li>Explain the process of navigating to find family history sources</li>
+                    <li>Explain the process of finding research articles</li>
+                    <li>Explain the process of finding the “work with us” page</li>
+                </ol>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Task</th>
+                        <th scope="col">User #1</th>
+                        <th scope="col">User #2</th>
+                        <th scope="col">User #3</th>
+                        <th scope="col">User #4</th>
+                        <th scope="col">User #5</th>
+                        <th scope="col">Success Rate</th>
+                        <th scope="col">Average Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Task 1</th>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>100%</td>
+                        <td>25.8 sec</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Task 2</th>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>100%</td>
+                        <td>9.8 sec</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Task 3</th>
+                        <td>0.5</td>
+                        <td>1</td>
+                        <td>0.5</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>75%</td>
+                        <td>15.9 sec</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col">
+                    <img src="Images\Heatmap_1.jpg" alt="homepage heatmap" style="width:100%;">
                 </div>
-            </section>
-        </div>
+                <div class="col">
+                    <img src="Images\Heatmap_2.jpg" alt="nav heatmap" style="width:100%;" </div>
+                </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>The Prototypes</h3>
+                <p>After reviewing feedback and further iterations, my final prototype was created!</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>The Next Steps</h2>
+                <p>For me, it was a challenging few weeks that involved thinking outside the box and relying on
+                    numerous
+                    resources to get the job done. However, this project helped me practice and shape my UI skills
+                    to
+                    make functional, but aesthetically pleasing products.</p>
+                <p>Initially, I had made the mistake of designing other aspects of the website instead on focusing
+                    on
+                    designing useful components first. Once they were designed, putting together the remainder of
+                    the
+                    website was much easier.</p>
+                <p>Future opportunities include additional iterations and redesign beyond the homepage and
+                    navigation. I
+                    would also like to include interactive sections to enhance the user experience.</p>
+                <p>Overall, I am proud of what I’ve been able to accomplish in 5 weeks, and look forward to similar
+                    projects like this in the future!</p>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>

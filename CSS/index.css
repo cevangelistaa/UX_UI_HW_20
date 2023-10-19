@@ -1,8 +1,16 @@
+body{
+    color: #243337;
+    background-color: #e3eaeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin-top:25px;
+}
 .jumbotron {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 0;
+    background-color: #e3eaeb
 }
 
 .display-4 {
@@ -15,27 +23,13 @@
 
 .nav {
     padding: 10px;
-    background-color: #d9d9d9;
+    background-color: #ffb347;
     margin-bottom: 25px;
 }
 
 .nav-link {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -76,12 +70,21 @@ li {
 
 .table {
     margin-left: 170px;
-    padding: 10px;
 }
 
 .stickyboard img {
     width: 600px;
 }
-.matrix img{
+
+.matrix img {
     width: 600px;
+}
+
+.cardsort img {
+    width: 800px;
+    margin-left: 175px
+}
+#sitemap img{
+    width: 800px;
+    margin-left: 160px;
 }
