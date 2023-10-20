@@ -273,23 +273,23 @@
         </section>
 
         <section>
-            <div class="row">
+            <div class="row" id="updatedNav">
                 <h2>Ideation & UI Design</h2>
                 <p>Based off card sorting and an updated site map, I designed an updated primary navigation bar to
                     have
                     the logo and six options a user can choose from.</p>
-                <img src="Images\Primary Nav .png" alt="navigation bar" style="width:100%;">
+                <img src="Images\Primary Nav .png" alt="navigation bar">
             </div>
             <div class="row">
                 <p>The search bar was also redesigned to have the text color uniform on the primary navigation to
                     decrease the chance of users missing it, as well as to follow AA guidelines. Users can hover
                     over
                     the search bar before clicking on it to activate.</p>
-                <div class="col">
-                    <img src="Images\Search Normal.png" alt="normal search" style="width:100%;">
+                <div class="col" id="normalsearch">
+                    <img src="Images\Search Normal.png" alt="normal search">
                 </div>
-                <div class="col">
-                    <img src="Images\Search Hover.png" alt="hover search" style="width:100%;">
+                <div class="col" id="hoversearch">
+                    <img src="Images\Search Hover.png" alt="hover search">
                 </div>
             </div>
             <br>
@@ -303,12 +303,12 @@
                 <p>Once the user clicks on the search icon, they have the option of typing via the keyboard, or
                     speaking
                     via the microphone.</p>
-                <div class="row">
+                <div class="row" id="darknav">
                     <div class="col">
-                        <img src="Images\Top Dark.png" alt="dark nav bar" style="width:100%;">
+                        <img src="Images\Top Dark.png" alt="dark nav bar">
                     </div>
-                    <div class="col">
-                        <img src="Images\Search Dark.png" alt="dark search bar" style="width:100%;">
+                    <div class="col" id="darksearch">
+                        <img src="Images\Search Dark.png" alt="dark search bar">
                     </div>
                 </div>
                 <br>
@@ -316,12 +316,12 @@
                     <p>In regards to the footer component, the mobile and desktop versions were redesigned to
                         maintain
                         consistency.</p>
-                    <div class="row">
+                    <div class="row" id="darkfooterweb">
                         <div class="col">
-                            <img src="Images\Desktop_Footer.png" alt="dark footer" style="width:100%;">
+                            <img src="Images\Desktop_Footer.png" alt="dark footer">
                         </div>
-                        <div class="col">
-                            <img src="Images\Mobile_Footer.png" alt="mobile dark footer" style="width:100%;">
+                        <div class="col" id="darkfootermobile">
+                            <img src="Images\Mobile_Footer.png" alt="mobile dark footer">
                         </div>
                     </div>
                 </div>
@@ -332,8 +332,8 @@
                 <h3>Style Guide</h3>
                 <p>I created a style guide to define the color palette, typography, and iconography to help with
                     consistency in design across all pages.</p>
-                <div class="row">
-                    <img src="Images\UI Style Tile.png" alt="style tile" style="width:100%;">
+                <div class="row" id="styleguide">
+                    <img src="Images\UI Style Tile.png" alt="style tile">
                 </div>
             </div>
         </section>
@@ -350,11 +350,11 @@
                     from user testing.</p>
             </div>
             <div class="row">
-                <div class="col">
-                    <img src="Images\Desktop_Wireframe_V1.png" alt="desktop wireframe" style="width:100%;">
+                <div class="col" id="desktophome">
+                    <img src="Images\Desktop_Wireframe_V1.png" alt="desktop wireframe">
                 </div>
-                <div class="col">
-                    <img src="Images\Desktop_Wireframe_1_V1.png" alt="desktop wireframe menu" style="width:100%;">
+                <div class="col" id="desktopmenu">
+                    <img src="Images\Desktop_Wireframe_1_V1.png" alt="desktop wireframe menu">
                 </div>
             </div>
             <div class="row">
@@ -363,11 +363,11 @@
                     page.</p>
             </div>
             <div class="row">
-                <div class="col">
-                    <img src="Images\Desktop_Wireframe_V2.png" alt="wireframe with hero image" style="width:100%;">
+                <div class="col" id="herowireframe">
+                    <img src="Images\Desktop_Wireframe_V2.png" alt="wireframe with hero image">
                 </div>
-                <div class="col">
-                    <img src="Images\Desktop_Wireframe_1_V2.png" alt="wireframe with menu" style="width:100%;">
+                <div class="col" id="menuwireframe">
+                    <img src="Images\Desktop_Wireframe_1_V2.png" alt="wireframe with menu">
                 </div>
             </div>
             <div class="row">
@@ -376,12 +376,35 @@
                     mobile and desktop, and added 2-3 sections within the site users would visit to accomplish their
                     intended goals.</p>
             </div>
-            <div class="image-container">
-                <img src="Images\Mobile_Wireframe_V1.png" alt="mobile wireframe">
-                <img src="Images\Mobile_Wireframe_1_V1.png" alt="mobile wireframe focused">
-                <img src="Images\Mobile_Wireframe_V2.png" alt="mobile wireframe with hero">
-                <img src="Images\Mobile_Wireframe_1_V2.png" alt="mobile wireframe interactive news">
-            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="Images\Mobile_Wireframe_V1.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Images\Mobile_Wireframe_1_V1.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Images\Mobile_Wireframe_V2.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Images\Mobile_Wireframe_1_V2.png" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
         </section>
 
         <section>
@@ -468,12 +491,13 @@
 
         <section>
             <div class="row">
-                <div class="col">
-                    <img src="Images\Heatmap_1.jpg" alt="homepage heatmap" style="width:100%;">
+                <div class="col" id="heatmaphome">
+                    <img src="Images\Heatmap_1.jpg" alt="homepage heatmap">
                 </div>
-                <div class="col">
-                    <img src="Images\Heatmap_2.jpg" alt="nav heatmap" style="width:100%;" </div>
+                <div class="col" id="heatmapnav">
+                    <img src="Images\Heatmap_2.jpg" alt="nav heatmap"" 
                 </div>
+            </div>
         </section>
 
         <section>

@@ -88,3 +88,79 @@ li {
     width: 800px;
     margin-left: 160px;
 }
+#updatedNav img{
+    width: 94%;
+    margin-bottom: 10px;
+    margin-right:auto;
+    display:block;
+}
+#normalsearch img{
+    display: block;
+    margin-right:auto;
+    width: 400px;
+}
+#hoversearch img{
+    display: block;
+    margin-right:auto;
+    width: 400px;
+}
+#darknav img{
+    display: block;
+    margin-right:auto;
+    width:500px;
+}
+#darksearch img{
+    display: block;
+    margin-right: auto;
+    width: 500px;
+}
+#darkfooterweb img{
+    display: block;
+    margin-right: auto;
+    width: 500px;
+}
+#styleguide img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px
+}
+#desktophome img{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+#desktopmenu img{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+#herowireframe img{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+#menuwireframe img{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.carousel-inner{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#heatmaphome img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heatmapnav img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
